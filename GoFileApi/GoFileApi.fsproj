@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Api.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="4.1.1" />
+  </ItemGroup>
+  
+  <Target Name="CopyDll" AfterTargets="Build">
+    <ItemGroup>
+      <FileToCopy Include="$(ProjectDir)bin\Debug\netstandard2.0\GoFileApi.dll"/>
+    </ItemGroup>
+  
+    <Copy
+      SourceFiles="@(FileToCopy)"
+      DestinationFolder="../WhichHandHoldThePhone/Assets/Plugins"
+    />
+  </Target>
+
+</Project>

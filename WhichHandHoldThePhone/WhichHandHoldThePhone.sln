@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E7BB655E-ADBB-A953-8A38-ACB8A97A51DF}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GoFileApi", "..\GoFileApi\GoFileApi.fsproj", "{89880CA5-66BA-485C-91A3-4C293168148C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7BB655E-ADBB-A953-8A38-ACB8A97A51DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BB655E-ADBB-A953-8A38-ACB8A97A51DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BB655E-ADBB-A953-8A38-ACB8A97A51DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BB655E-ADBB-A953-8A38-ACB8A97A51DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89880CA5-66BA-485C-91A3-4C293168148C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89880CA5-66BA-485C-91A3-4C293168148C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89880CA5-66BA-485C-91A3-4C293168148C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89880CA5-66BA-485C-91A3-4C293168148C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
