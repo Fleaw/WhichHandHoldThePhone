@@ -407,3 +407,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+#Used to resolve Unity packages
+!**/WhichHandHoldThePhone/Packages/manifest.json
